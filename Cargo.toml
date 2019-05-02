@@ -1,0 +1,9 @@
+[package]
+name = "frc-netcomm-sys"
+version = "0.1.0"
+authors = ["David Vo <david@vovo.id.au>"]
+edition = "2018"
+links = "FRC_NetworkCommunication"
+build = "build.rs"
+
+[dependencies]
