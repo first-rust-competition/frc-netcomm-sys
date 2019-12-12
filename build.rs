@@ -5,4 +5,5 @@ fn main() {
 
     let path = env::current_dir().unwrap();
     println!("cargo:rustc-link-search=native={}/lib", path.display());
+    println!("cargo:include={}/include", path.display());
 }
