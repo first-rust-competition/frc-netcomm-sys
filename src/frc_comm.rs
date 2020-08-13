@@ -60,6 +60,9 @@ where
     }
 }
 
+pub const ERR_FRCSystem_NetCommNotResponding: i32 = -44049;
+pub const ERR_FRCSystem_NoDSConnection: i32 = -44018;
+
 pub const kAllianceStationID_red1: AllianceStationID_t = 0;
 pub const kAllianceStationID_red2: AllianceStationID_t = 1;
 pub const kAllianceStationID_red3: AllianceStationID_t = 2;
