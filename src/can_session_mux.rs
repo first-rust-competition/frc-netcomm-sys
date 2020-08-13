@@ -1,3 +1,11 @@
+//! CANSessionMux.h
+//!
+//! Defines the API for building a CAN Interface Plugin to support
+//! PWM-cable-free CAN motor control on FRC robots.  This allows you
+//! to connect any CAN interface to the secure Jaguar CAN driver.
+
+#![allow(non_upper_case_globals)]
+
 pub use self::{
     FRC_NetworkCommunication_CANSessionMux_closeStreamSession as close_stream,
     FRC_NetworkCommunication_CANSessionMux_getCANStatus as get_can_status,
